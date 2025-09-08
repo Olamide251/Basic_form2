@@ -1,0 +1,66 @@
+ body {
+ margin-top:0px;
+  padding: 0px;
+  background-image: url("../images/wood.jpeg");
+  background-repeat: round;
+ font-family: 'Times New Roman', Times, serif;
+ }
+ header{
+    background-color: #960303;
+    width: 900px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: 100px;
+    
+ }
+ .course{
+    display: flex;
+ }
+article img{
+    width:250px;
+    height: 200px;
+    display: block;
+    margin-bottom: 10px;
+margin-top: 50px;
+border-radius: 2px;
+}
+ 
+ nav{
+     background-color: #c0bebe;
+     overflow: hidden;
+     width:900px;
+     height: 40px;
+     
+     }
+ul{
+    list-style-type: none;
+    display:flex;
+    gap: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    line-height:5px;
+    }
+    li a{
+        text-decoration: none;
+        color: rgb(37, 35, 35);
+    }
+    li a:focus{
+        background-color:rgb(255, 255, 255) ;
+    }
+.ten{
+    background-color: rgb(255, 255, 255);
+    width: 900px;
+    margin: 0px auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+ p{
+    color: #960303;
+        max-width: 200px;
+    margin-left: 10px;
+ }
+ h2,h3{
+    margin-left: 10px;
+ }
